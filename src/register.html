@@ -1,0 +1,90 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap Template</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="col-lg-6">
+                <nav class="navbar navbar-default navbar-fixed-top">
+                    <div class="container">
+                        <ul class="nav navbar-nav">
+                            <li><a href="login.html">Log in</a></li>
+                            <li><a href="index.html">Index</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="section">
+                <div class="col-lg-12 col-xs-12">
+                    <h1>Enter your details</h1>
+                    <form class="formReg" action="process.php" method="post">
+                        <div class="row">
+                            <label for="Name" class="col-lg-5 left">Name</label>
+
+                            <input type="text" id="Name" class="col-lg-7 right"><br>
+                        </div>
+                        <div class="row">
+                            <label for="SecondName" class="col-lg-5 left">Second name</label>
+
+                            <input type="text" id="SecondName" class="col-lg-7 right"><br>
+                        </div>
+                        <div class="row">
+                            <label for="NIF" class="col-lg-5 left">NIF</label>
+
+                            <input type="text" id="NIF" class="col-lg-7 right"><br>
+                        </div>
+                        <div class="row">
+                            <label for="Email" class="col-lg-5 left">Email</label>
+
+                            <input type="text" id="Email" class="col-lg-7 right"><br>
+                        </div>
+                        <div class="row">
+                            <label for="Address" class="col-lg-5 left">Address</label>
+
+                            <input type="text" id="Address" class="col-lg-7 right"><br>
+                        </div>
+                        <div class="row">
+                            <label for="DateOfBirth" class="col-lg-5 left">Date of birth</label>
+
+                            <input type="date" id="DateOfBirth" class="col-lg-7 right dof"><br>
+                        </div>
+                        <div class="row">
+                            <label for="UserName" class="col-lg-5 left">User name</label>
+
+                            <input type="text" id="UserName" class="col-lg-7 right"><br>
+                        </div>
+                        <div class="row">
+                            <label for="Password" class="col-lg-5 left">Pasword</label>
+
+                            <input type="password" id="Password" class="col-lg-7 right"><br>
+                        </div>
+                        <div class="row">
+                            <input type="submit" class="boto" value="Submit"/>
+                            <input type="reset" class="boto" value="Delete"/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="container-fluid">
+                    <p>Míriam Cendán Palacios</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
